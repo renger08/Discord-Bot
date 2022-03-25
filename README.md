@@ -6,7 +6,7 @@
 - server prefix, welcome message and etc.
 
 ### Note:
-This robot is made with minimal facilities and knowledge. This project can help you build a better bot with more features. This Repository is free and you can develop this bot.
+This bot is made with minimal facilities and knowledge. This project can help you build a better bot with more features. This Repository is free and you can develop this bot.
 
 ---
 
