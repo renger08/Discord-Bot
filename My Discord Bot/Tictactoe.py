@@ -1,3 +1,6 @@
+# By Alexa Fazio
+# https://github.com/afazio1/robotic-nation-proj/tree/master/projects/discord-bot
+
 import discord
 from discord.ext import commands
 import random
@@ -135,11 +138,4 @@ async def place_error(ctx, error):
     elif isinstance(error, commands.BadArgument):
         await ctx.send("Please make sure to enter an integer.")
 
-client.run("YOUR_TOKEN")
-
-# If you wish to securely hide your token, you can do so in a .env file.
-# 1. Create a .env in the same directory as your Python scripts
-# 2. In the .env file format your variables like this: VARIABLE_NAME=your_token_here
-# 3. At the top of the Python script, import os
-# 4. In Python, you can read a .env file using this syntax:
-# token = os.getenv(VARIABLE_NAME)
+client.run("TOKEN")
